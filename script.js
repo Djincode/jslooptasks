@@ -236,9 +236,9 @@
 // for(i=0; i< myArray.length ;i++){
 //      sumArray += myArray[i];
 
-//      alert(`Ededlerin cemi ${sumArray}`)
-// }
 
+// }
+//      alert(`Ededlerin cemi ${sumArray}`)
 
 // ededi orta
 
@@ -249,24 +249,442 @@
 
 
 // for(i=0; i< myArray.length ;i++){
-//      sumArray += myArray[i];
-//      edediOrta= sumArray/myArray.length
-
-//      alert(`Ededlerin cemi:${sumArray} Ededi orta: ${edediOrta}`)
+//      sumArray += myArray[i]; 
 
 // }
+
+// edediOrta= sumArray/myArray.length
+// alert(`Ededlerin cemi:${sumArray} Ededi orta: ${edediOrta}`)
 
 
 //stringi tersine cevir
 
 
-// let myString = "Perviz";
+// let myString = prompt("Stringi daxil edin");
 
 // let reverseString= "";
 
 // for(let i= myString.length-1; i >=0;i--){
 //     reverseString += myString[i];
+//     if(reverseString.length < myString.length){
+//         continue
+//     }
 
 //     console.log(reverseString);
 // }
-  
+
+
+
+///////////////////////////////05.03.2024
+//   let books = [
+//   {
+//     author: "J.K. Rowling",
+//     bookName: "Harry Potter and the Sorcerer's Stone",
+//     bestseller: true,
+//     genre: "Fantasy",
+//   },
+//   {
+//     author: "George Orwell",
+//     bookName: "1984",
+//     bestseller: false,
+//     genre: "Dystopian",
+//   },
+//   {
+//     author: "J.R.R. Tolkien",
+//     bookName: "The Hobbit",
+//     bestseller: true,
+//     genre: "Fantasy",
+//   },
+//   {
+//     author: "Jane Austen",
+//     bookName: "Pride and Prejudice",
+//     bestseller: false,
+//     genre: "Classic",
+//   },
+//   {
+//     author: "Harper Lee",
+//     bookName: "To Kill a Mockingbird",
+//     bestseller: true,
+//     genre: "Fiction",
+//   },
+//   {
+//     author: "F. Scott Fitzgerald",
+//     bookName: "The Great Gatsby",
+//     bestseller: false,
+//     genre: "Classic",
+//   },
+//   {
+//     author: "Agatha Christie",
+//     bookName: "Murder on the Orient Express",
+//     bestseller: true,
+//     genre: "Mystery",
+//   },
+//   {
+//     author: "Ernest Hemingway",
+//     bookName: "The Old Man and the Sea",
+//     bestseller: false,
+//     genre: "Fiction",
+//   },
+//   {
+//     author: "Jules Verne",
+//     bookName: "Twenty Thousand Leagues Under the Sea",
+//     bestseller: true,
+//     genre: "Adventure",
+//   },
+//   {
+//     author: "Arthur Conan Doyle",
+//     bookName: "Sherlock Holmes",
+//     bestseller: false,
+//     genre: "Mystery",
+//   },
+// ];
+
+
+// function filter(aray){
+
+    
+
+
+//    for(let i=0; i<aray.length; i++){
+    
+//     if(aray[i].bestseller){
+//         console.log(aray[i].bookName)
+//     }
+//    }
+// }
+
+// filter(books);
+
+// function filter(aray){
+
+    
+
+
+//    for(let i=0; i<aray.length; i++){
+    
+//     if(aray[i].genre==="Fantasy"){
+//         console.log(aray[i].bookName, aray[i].author )
+//     }
+//    }
+// }
+
+// filter(books);
+
+// function filter(aray){
+
+    
+
+
+//     for(let i=0; i<aray.length; i++){
+     
+//      if(aray[i].genre==="Fantasy" && aray[i].bestseller){
+//          console.log(aray[i].bookName, aray[i].author )
+//      }
+//     }
+//  }
+ 
+//  filter(books);
+
+
+// function filter(aray){
+
+    
+
+
+//     for(let i=0; i<aray.length; i++){
+     
+//      if(aray[i].bestseller){
+//          console.log(aray[i].bookName, aray[i].author )
+//      }
+//     }
+//  }
+ 
+//  filter(books);
+ 
+
+
+ 
+
+
+
+
+// let movies = [
+//   {
+//     title: "Inception",
+//     director: "Christopher Nolan",
+//     genre: "Science Fiction",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "The Shawshank Redemption",
+//     director: "Frank Darabont",
+//     genre: "Drama",
+//     blockbuster: false,
+//   },
+//   {
+//     title: "The Dark Knight",
+//     director: "Christopher Nolan",
+//     genre: "Action",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "Forrest Gump",
+//     director: "Robert Zemeckis",
+//     genre: "Drama",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "Pulp Fiction",
+//     director: "Quentin Tarantino",
+//     genre: "Crime",
+//     blockbuster: false,
+//   },
+//   {
+//     title: "The Matrix",
+//     director: "Lana and Lilly Wachowski",
+//     genre: "Science Fiction",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "The Godfather",
+//     director: "Francis Ford Coppola",
+//     genre: "Crime",
+//     blockbuster: false,
+//   },
+//   {
+//     title: "Avatar",
+//     director: "James Cameron",
+//     genre: "Action",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "Titanic",
+//     director: "James Cameron",
+//     genre: "Romance",
+//     blockbuster: true,
+//   },
+//   {
+//     title: "The Silence of the Lambs",
+//     director: "Jonathan Demme",
+//     genre: "Thriller",
+//     blockbuster: false,
+//   },
+// ];
+
+
+//  function filter(aray){
+
+    
+
+
+//     for(let i=0; i<aray.length; i++){
+     
+//      if(aray[i].blockbuster){
+//          console.log(aray[i].title )
+//      }
+//     }
+//  }
+//   filter(movies)
+    
+
+
+// function filter(aray){
+
+    
+
+
+//     for(let i=0; i<aray.length; i++){
+     
+//      if(aray[i].genre==="Science Fiction"
+//      ){
+//          console.log(aray[i].title, aray[i].director )
+//      }
+//     }
+//  }
+//   filter(movies)
+
+// function filter(aray){
+//     for(let i=0; i<aray.length; i++){
+     
+//      if(aray[i].genre==="Science Fiction" && aray[i].blockbuster
+//      ){
+//          console.log(aray[i].title, aray[i].director )
+//      }
+//     }
+// }
+
+    
+// filter(movies)
+
+ 
+
+//////////Dersde yazdigim Funksiyalar
+
+// function parameters(a, b, type){
+//    let result;
+
+      
+//     if(type=== "perimetr"){
+//         result =2*(a+b)
+//     }else if(type=== "sahe"){
+//         result = a *b;
+//     }else{
+//         return
+//     }
+
+//     return result;
+
+
+
+
+// }
+
+// console.log(parameters(5, 9, "perimetr"));
+
+
+// function emeliyyat (a , b , simvol){
+
+//     let result;
+
+//     if(simvol === "toplama"){
+//         result= a+b;
+//     }
+//     if(simvol === "cixma"){
+//         result= a-b;
+//     }
+//     if(simvol === "vurma"){
+//         result= a*b;
+//     }
+//     if(simvol === "bolme"){
+//         result= a/b;
+//     }
+
+//     return result;
+// }
+
+// console.log(emeliyyat(5, 9 , "toplama"));
+
+
+// function muqayise(a, b, c){
+// let boyukEded;
+
+// if(a>b && a>c){
+//     boyukEded = a;
+// }else  if(b>a && b>c){
+//     boyukEded = b;
+// } if(c>b && c>a){
+//     boyukEded =a;
+// }
+
+// return boyukEded;
+// }
+
+// console.log(muqayise(90,80,70));
+
+/////////////////////// Kutle ceki indeksi
+// function bmi (kutle, boy){
+
+//     let a = kutle / boy**2;
+
+//     return a;
+// }
+
+// console.log(bmi(55, 1.6));
+
+
+
+//////////////////aray toplama
+
+
+// let arr =[1,2,3,4,5];
+
+// function araysummer(ar){
+
+// let sum = 0;
+//    for(let i =0; i<ar.length; i++){
+
+//       sum+=ar[i]
+    
+//    }
+//    return sum;
+// }
+
+// console.log(araysummer(arr));
+
+//////////////aray hasili tapma
+
+// let arr =[1,2,3,4,5];
+
+// function arayhasil(ar){
+
+// let hasil = 1;
+//    for(let i =0; i<ar.length; i++){
+
+//       hasil*=ar[i]
+    
+//    }
+//    return hasil;
+// }
+
+// console.log(arayhasil(arr));
+
+///En boyuk elementi tap
+
+
+
+// let arr = [10, 5, 25, 30, 15];
+
+// function findMax(aray) {
+//     if (aray.length === 0) {
+//         return; 
+//     }
+
+//     let bigest = aray[0];
+
+//     for (let i = 1; i < aray.length; i++) {
+//         if (aray[i] > bigest) {
+//             bigest = aray[i]; 
+//         }
+//     }
+
+//     return bigest; 
+// }
+
+// console.log(findMax(arr));
+
+
+// let meyveler = ['alma', 'banan', 'armud', 'heyva'];
+
+
+
+// function tersCevir(meyve) {
+//     let tersMeyveler = [];
+
+//     for (let i = meyve.length-1 ; i >= 0; i--) {
+//         tersMeyveler[meyve.length-1 - i] = meyve[i];
+//     }
+
+//     return tersMeyveler;
+// }
+
+// console.log(tersCevir(meyveler));
+
+
+// function stringler(str1,str2){
+//     return(str1+str2)
+// }
+
+// console.log(stringler("salam","necesen"));
+
+
+// const control = (a,b,c)=>{
+//     if(a<b && b<c) {
+//         console.log(`${b} ededi ${a} ve ${c} arasinda yerlesir`)
+//     } else if(b<a && a<c) {
+//         console.log(`${a} ededi ${b} ve ${c} arasinda yerlesir`)
+//     } else {
+//         console.log(`${c} ededi ${a} ve ${b} arasinda yerlesir`)
+//     }
+// }
+
+// console.log(control(50,70,60));
