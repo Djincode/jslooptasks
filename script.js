@@ -680,11 +680,16 @@
 // const control = (a,b,c)=>{
 //     if(a<b && b<c) {
 //         console.log(`${b} ededi ${a} ve ${c} arasinda yerlesir`)
-//     } else if(b<a && a<c) {
+//     } else if(b<a && a<c  ) {
 //         console.log(`${a} ededi ${b} ve ${c} arasinda yerlesir`)
-//     } else {
+//     } else
+//     if(a==b==c || a==b || a==c || b==c ){
+//         console.log("Ededlerin en azi ikisi beraberdir")
+//     }  else{
 //         console.log(`${c} ededi ${a} ve ${b} arasinda yerlesir`)
 //     }
 // }
 
-// console.log(control(50,70,60));
+// console.log(control());
+
+
